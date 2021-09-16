@@ -22,5 +22,9 @@ def message():
     return redirect(url_for('message'))
   return render_template('message.html', form=form)
 
+# @app.route('/route_name')
+# def method_name():
+#     pass
+
 if __name__ == '__main__':
   app.run(debug= True, port= 8000)
